@@ -46,13 +46,18 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/start-browser.JPG)
 
-- The command configuration opens. You need to set name to your browser session (for example `web01`). Keep `Chrome` selected as your browser, if you have Chrome installed. You can also change the browser to one you want to use.
+- The command configuration opens. You need to set name to your browser instance (for example `web01`). Keep `Google Chrome` selected as your browser type, if you have Chrome installed. You can also change the browser to one you want to use. Click `Save` button.
 
 ![](./images/config-start-browser.JPG)
 
+- `Close Browser` configuration window pops up automatically. Make sure to set the same instance name value that you used for `Start Browser`. Also set `Keep browser open` as enabled. This helps you during the implementation so that browser is not closed when you test your automation and you can continue using it for defining next actions for your automation.
+
+![](./images/close-browser.JPG)
+
+- Next command we want to is `Navigate`. You can find it also under Browser --> Actions. Drag and drop it below the `Start Browser` command to your Designer view.
+
 **(4)** Click on `Launch Watson Assistant`.
 
-![](./images/va_launch.png)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
