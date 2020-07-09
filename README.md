@@ -19,7 +19,6 @@ In this exercise you will build a robot to automate processing sales leads that 
 - Double-click the WDG Studio shortcut in your desktop
 
 ![](./images/shortcut.JPG)
-<img src="./images/shortcut.JPG" width="20%">
 
 - Select `(4) Watson Assistant`
 
