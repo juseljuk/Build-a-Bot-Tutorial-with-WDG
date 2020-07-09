@@ -70,7 +70,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/success.JPG)
 
-- Nice! Your first run with WDG Automation 👍 Let's keep on going! Next we will need to automate the login to JK Automation website.
+- Nice! Your first run with WDG Automation 👍🏻Let's keep on going! Next we will need to automate the login to JK Automation website.
 
 > Test how this looks like?
 
