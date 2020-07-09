@@ -16,13 +16,17 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 ### Exercise instructions
 **(1)** Start WDG Automation Studio
-- Double-click the WDG Studio shortcut in your desktop
+- Double-click the `WDG Studio shortcut` in your desktop.
 
 ![](./images/shortcut.JPG)
 
-- Select `(4) Watson Assistant`
+- When the login window opens (might take a while for the first time), type in your username and hit the `Login button`.
 
+![](./images/login.JPG)
 
+- When your tenant name is displayed, type in your password and hit the `Login button` again.
+
+![](./images/login2.JPG)
 
 **(2)** For region keep / select **_London_** and make sure you have the `Lite` plan selected.
 
