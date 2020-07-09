@@ -10,41 +10,28 @@ This exercise is a copy of current "Build a Bot Tutorial" available in IBM Demos
 ### Use case
 In this exercise you will build a robot to automate processing sales leads that arrive in a CSV/Excel format. Each row of the file represents a separate sales lead. The sales leads need to be manually entered (copy/paste) by an analyst into the online opportunity system of record (JK Automation Sales Leads). This task is error prone and the analysts repeatedly ask if this can be automated, but it has never been a company priority. Until now 😉
 
-#### Content
-- [Blue Demos Environment](#blue-demos-environment)
-- [Virtual Assistant](#virtual-assistant)
-- [Connecting Chatbot to Business Automation Workflow](#connecting-chatbot-to-ibm-business-automation-workflow)
-- [Automation](#automation)
-- [Putting it all together!](#putting-it-all-together)  
+### Prerequisites
+- Personal WDG Automation Account activated
+- WDG Studio installed and configured to your computer
 
-#### Prerequisites
-- [IBM Cloud](https://cloud.ibm.com) Account
-- Access to a virtual environment with [IBM RPA](https://www.ibm.com/automation/software/rpa) and [IBM BAW](https://www.ibm.com/products/business-automation-workflow) installed
+### Exercise instructions
+*(1)** Log into IBM Cloud and create a **_Watson Assistant_** service.
+- Click on `(1) Catalog`, select `(2) Services` then filter by clicking on `(3) AI`
+- Select `(4) Watson Assistant`
 
+![](./images/chat1.png)  
 
-## Blue Demos Environment
-If you are running this exercise using yourself reserved IBM Blue Demos environment, you need to complete the _**LAB 0: Setting Up Your Environment**_. **NOTE!** If you are doing this exercise in a class room session with an instructor, you can skip this and go directly to LAB 1. Your instructor will provide separate instructions to access your virtual environment and some of the environment details that you need in LAB 2.
-  - [LAB 0: Setting Up Your Environment](./BlueDemos)
+**(2)** For region keep / select **_London_** and make sure you have the `Lite` plan selected.
 
-## Virtual Assistant
-In this part we create our **Virtual Assistant / Chatbot** by importing a B2B Banking _skill_ to our Watson Assistant service. We also take a look at how our chatbot has been constructed and we can also test it out.
- - [LAB 1: Cognitive Chatbot Basics](./1-Basics)
+![](./images/va_service_create.png)
 
-## Connecting Chatbot to IBM Business Automation Workflow
-Here we connect our chatbot to our managed workflow, so that our chatbot can trigger a new managed workflow instance when done collecting information from the banks corporate customer. We will use **IBM Cloud Functions** (serverless computing services) _actions_ to achieve this.
-  - [LAB 2: Integrating Watson Assistant with IBM Business Automation Workflow (BAW)](./2-Functions)
+**(3)** Scroll down and name the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`. Then hit `Create`.
 
-## Automation
-For this part of the exercise you will be using a ``virtual environment``running on cloud that you access via your web browser. Your instructor will tell you how to access your environment.
-- [LAB 3: Business Automation Workflow](./3-BAW)
-- [LAB 4: Robotic Process Automation](./4-RPA)
+![](./images/va_service_name.png)
 
-## Putting it all together!
-- [LAB 5: Our solution in action](./5-Final)
+**(4)** Click on `Launch Watson Assistant`.
 
-If you manage to finish the labs 1 to 4, you can test and run the hole solution together!
+![](./images/va_launch.png)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
-
-_Kudos: Matias Kovero and Sandra Calvo Martinez for helping with the first draft_
