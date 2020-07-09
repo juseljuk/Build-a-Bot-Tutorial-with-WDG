@@ -42,6 +42,12 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/empty-editor.JPG)
 
+- Add `Start Browser` command from your Toolbox to your Designer view. You can find the command under Browser --> Actions. Drag and drop it to your canvas.
+
+![](./images/start-browser.JPG)
+
+-
+
 **(4)** Click on `Launch Watson Assistant`.
 
 ![](./images/va_launch.png)
