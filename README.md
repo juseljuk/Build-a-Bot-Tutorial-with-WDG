@@ -1,6 +1,10 @@
 
 # IBM Digital Business Automation Exercise
 ## How to build a bot using WDG RPA (Robotic Process Automation)
+
+### Introduction
+July 8th, 2020 IBM announced that it will be acquiring WDG Automation to strengthen IBM DBA portfolio (https://newsroom.ibm.com/2020-07-08-IBM-to-Acquire-WDG-Automation-to-Advance-AI-Infused-Automation-Capabilities-for-Enterprises). IBM has been in strategic co-operation with Automation Anywhere (AA), providing IBM RPA with Automation Anywhere RPA solution based on Automation Anywhere RPA platform. Although our co-operation with AA will continue, IBMs'
+
 ### Use case
 The address information of a corporate customer of a bank have changed. Since the bank is providing a _Virtual Assistant_ service, customer initiates a discussion with the virtual assistant in order to notify the bank of changed address information.
 
