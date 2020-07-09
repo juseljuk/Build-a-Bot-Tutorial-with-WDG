@@ -15,7 +15,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 - WDG Studio installed and configured to your computer
 
 ### Exercise instructions
-##**(1)** Start WDG Automation Studio##
+**(1) Start WDG Automation Studio**
 - Double-click the `WDG Studio shortcut` in your desktop.
 
 ![](./images/shortcut.JPG)
@@ -28,7 +28,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 ![](./images/login2.JPG)
 
-**(2)** Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section.
+**(2) Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section**
 
 ![](./images/new.JPG)
 
