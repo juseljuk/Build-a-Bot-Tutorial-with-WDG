@@ -36,7 +36,8 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 ![](./images/open-new.JPG)
 
-**(3) Create your bot script`**
+**(3) Create your bot script**
+
 You should now have your Studio opened with a empty WAL file in your Designer view. Note that you change your view between Script, Designer and Call Graph.
 
 ![](./images/empty-editor.JPG)
