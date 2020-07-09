@@ -15,11 +15,15 @@ In this exercise you will build a robot to automate processing sales leads that 
 - WDG Studio installed and configured to your computer
 
 ### Exercise instructions
-**(1)** Log into IBM Cloud and create a **_Watson Assistant_** service.
-- Click on `(1) Catalog`, select `(2) Services` then filter by clicking on `(3) AI`
+**(1)** Start WDG Automation Studio
+- Double-click the WDG Studio shortcut in your desktop
+
+![](./images/shortcut.JPG)
+<img src="./images/shortcut.JPG" width="20%">
+
 - Select `(4) Watson Assistant`
 
-![](./images/chat1.png)  
+
 
 **(2)** For region keep / select **_London_** and make sure you have the `Lite` plan selected.
 
