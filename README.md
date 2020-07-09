@@ -32,6 +32,10 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 ![](./images/new.JPG)
 
+- Select `WAL file` and click `Open`.
+
+![](./images/open-new.JPG)
+
 **(3)** Scroll down and name the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`. Then hit `Create`.
 
 ![](./images/va_service_name.png)
