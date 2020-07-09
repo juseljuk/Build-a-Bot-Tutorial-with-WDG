@@ -46,7 +46,9 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/start-browser.JPG)
 
--
+- The command configuration opens. You need to set name to your browser session (for example `web01`). Keep `Chrome` selected as your browser, if you have Chrome installed. You can also change the browser to one you want to use.
+
+![](./images/config-start-browser.JPG)
 
 **(4)** Click on `Launch Watson Assistant`.
 
