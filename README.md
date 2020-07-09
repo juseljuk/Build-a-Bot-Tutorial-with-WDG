@@ -66,7 +66,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/start-wo-debug.JPG)
 
-- You should see new Chrome Browser window opened and JK Automation login page opened. Note! For the first time this might take a couple of seconds. When you go back to your Studio window, you should see `Execution succeeded` text at the bottom left-hand side corner.
+- You should see new Chrome Browser window opened and JK Automation login page opened. Note! For the first time this might take a couple of seconds. When you go back to your Studio window, you should see `Execution succeeded` text at the bottom left-hand side corner. *_Make sure to leave the browser window open!_*
 
 ![](./images/success.JPG)
 
