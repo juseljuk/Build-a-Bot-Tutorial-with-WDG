@@ -28,9 +28,9 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 ![](./images/login2.JPG)
 
-**(2)** For region keep / select **_London_** and make sure you have the `Lite` plan selected.
+**(2)** Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section.
 
-![](./images/va_service_create.png)
+![](./images/new.JPG)
 
 **(3)** Scroll down and name the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`. Then hit `Create`.
 
