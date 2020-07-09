@@ -26,7 +26,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 - When your tenant name is displayed, type in your password and hit the `Login button` again.
 
-![](./images/login2.JPG)
+<!-- ![](./images/login2.JPG) -->
 
 **(2) Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section**
 
