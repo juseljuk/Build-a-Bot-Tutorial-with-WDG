@@ -62,7 +62,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/1stsave.JPG)
 
-- Run your automation to test that it works and JK-Automation web site is opened. Click the small arrow below green `Run` icon form the top toolbar and select `Run without debugging`. Alternatively you can hit `Ctrl+F5`.
+- Run your automation to test that it works and JK Automation website is opened. Click the small arrow below green `Run` icon form the top toolbar and select `Run without debugging`. Alternatively you can hit `Ctrl+F5`.
 
 ![](./images/start-wo-debug.JPG)
 
