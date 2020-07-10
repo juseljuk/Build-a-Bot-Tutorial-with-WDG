@@ -74,9 +74,25 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 > Currently WDG does not offer similar mechanism as in AA (object cloning) to automate capturing object (like web form fields) details that you want to use in your automation. For web pages this needs to be done manually using browser functionality to inspect the object and copy the selector for it. WDG support several selectors: id, name, css, xpath, id + name.
 
-- Open JK Automation browser window that you should have open. Right-click the `Username` field and form the opened menu select `Inspect`.
+- Open JK Automation browser window that you should have open. Right-click the `Username` field and from the opened menu select `Inspect`.
 
 ![](./images/open-inspect.JPG)
+
+- This open your browsers element inspector with the Username field element selected. Right-click the selected element, select `Copy` --> `Copy selector`. This will copy the CSS selector for the element to your clipboard.
+
+![](./images/inspect-editor.jpg)
+
+- Go back to your WDG Studio and add `Set Value to Field` (Browser --> Fields) command to your automation just under `Navigation` command. When the command configuration window opens set _Value_ to "**whatever**" (username you use does not matter), _Selector Type_ to **Css** and _Css_ to **the value from your clipboard** (the selector you copied from element inspector). Finally click `Save`.
+
+![](./images/setvalue-username.JPG)
+
+- Similarly add new `Set Value to Field` command below the previous for the `Password` field. Set _Value_ to **password10**.
+
+![](./images/setvalue-password.JPG)
+
+- Your automation should look like as follows.
+
+
 
 **(4) Test your automation**
 
