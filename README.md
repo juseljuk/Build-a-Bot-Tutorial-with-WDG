@@ -90,15 +90,20 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/setvalue-password.JPG)
 
+- Now, let's finish the login sequence by adding a command to click the `Submit` button in the JK Automation login page. We'll do that by adding command `Click on Web Page` after the Set Value to Field commands
+
+> Note that you can use toolbox search field to find commands. To display all the commands related to clicking, type **click** to the search field.
+
+![](./images/toolbox-click.JPG)
+
+-  Get the selector for the button from your browsers element inspector as earlier did for the Username and Password fields.
+
+![](./images/click-submit.JPG)
+
 - Your automation should look like as follows.
 
 ![](./images/2nd-check.JPG)
 
-- Now, let's finish the login sequence by adding a command to click the `Submit` button in the JK Automation login page. We'll do that by adding command `Click on Web Page` after the Set Value to Field commands. Get the selector for the button from your browsers element inspector as earlier did for the Username and Password fields.
-
-> You can use toolbox search field to find commands. To display all the commands related to clicking, type **click** to the search field.
-
-![](./images/toolbox-click.JPG)
 
 **(4) Test your automation**
 
