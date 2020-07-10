@@ -131,9 +131,13 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/add-new-variable.JPG)
 
-- Name the variable `**leads**`.
+- Name the variable as **leads**. Notice that the variable type is automatically set to match the output type (Data Table). Click `Save`.
 
 ![](./images/leads-variable.JPG)
+
+- Repeat the previous steps to create variables also to other outputs _Rows_ and _Columns_. Name them **row_count** and **column_count**, respectively. Your Read CSV command configuration should now look as follows. Click `Save`.
+
+![](./images/read-csv-complete.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
