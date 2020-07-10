@@ -115,9 +115,13 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/click-leads.JPG)
 
-- When you have added the command, click the Leads link to open the JK Automation Sales Leads view in your browser.
+- Click the `Download file` link in the left-hand side menu to download the CSV-file that we will use to read some new sales leads from and add them to JK Automation system. _**Save the file to your computer and take mark of the folder you saved it to**_. You will need that later on.
+
+- When you have downloaded the CSV-file, click the `Leads` link to open the JK Automation Sales Leads view in your browser.
 
 ![](./images/sales-leads.JPG)
+
+- Good. We can now read the CSV-file. Use toolbox search to find `Read CSV File` command and add it after your last Click on Web Page command. 
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
