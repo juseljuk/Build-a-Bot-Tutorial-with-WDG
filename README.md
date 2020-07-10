@@ -36,7 +36,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 ![](./images/open-new.JPG)
 
-**(3) Create your bot script**
+**(3) Create your bot script - Login to JK Automation website**
 
 You should now have your Studio opened with a empty WAL file in your Designer view. Note that you change your view between Script, Designer and Call Graph.
 
@@ -105,8 +105,11 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 ![](./images/2nd-check.JPG)
 
 
-**(4) Test your automation**
+**(4) Test your automation and continue implementation - Read CSV**
 
+`Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier (Start without debugging)`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
+
+![](./images/welcome-page.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
