@@ -70,7 +70,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/success.JPG)
 
-- Nice! Your first run with WDG Automation 👍 Let's keep on going! Next we will need to automate the login to JK Automation website.
+- Nice! Your first run with WDG Automation 👍🏻Let's keep on going! Next we will need to automate the login to JK Automation website.
 
 > Currently WDG does not offer similar mechanism as in AA (object cloning) to automate capturing object (like web form fields) details that you want to use in your automation. For web pages this needs to be done manually using browser functionality to inspect the object and copy the selector for it. WDG support several selectors: id, name, css, xpath, id + name.
 
