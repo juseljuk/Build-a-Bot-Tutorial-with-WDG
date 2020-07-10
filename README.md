@@ -111,5 +111,9 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/welcome-page.JPG)
 
+- Since we want to handle _Leads_, add a `Click on Web Page` command to your automation to click the `Leads` link in the left-hand side menu. Yet again, use your browsers element inspector to get the needed selector for the Leads link.
+
+![](./images/click-leads.JPG)
+
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
