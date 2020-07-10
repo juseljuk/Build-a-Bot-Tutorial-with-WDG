@@ -92,6 +92,8 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 - Your automation should look like as follows.
 
+![](./images/2nd-check.JPG)
+
 
 
 **(4) Test your automation**
