@@ -123,11 +123,17 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 - Good. We can now read the CSV-file. Use toolbox search to find `Read CSV File` command and add it after your last Click on Web Page command.
 
-- When the command configuration window opens, use the `folder browse icon` to select the file you just downloaded from your file system, leave all the other selections as they are in default. There are three outputs for the command: _Data Table_ (holds the data), _Rows_ (number of rows in the data table) and _Columns_ (number of columns in the data table). We want to store this to variables.
+- When the command configuration window opens, use the `folder browse icon` to select the file you just downloaded from your file system, leave all the other selections as they are in default. There are three outputs for the command: _Data Table_ (holds the data), _Rows_ (number of rows in the data table) and _Columns_ (number of columns in the data table). We want to store these to variables.
 
 ![](./images/read-csv.JPG)
 
-- First, **Click** the folder icon besides the Data Table field to open 
+- First, **Click** the folder icon besides the Data Table field to open variable list (as shown in picture above). Next, click `Add new variable` icon and the `Define Variable` window opens.
+
+![](./images/add-new-variable.JPG)
+
+- Name the variable `**leads**`.
+
+![](./images/leads-variable.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
