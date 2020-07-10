@@ -100,7 +100,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/click-submit.JPG)
 
-- Your automation should look like as follows.
+- Your automation should look like as follows. Nice, good job!
 
 ![](./images/2nd-check.JPG)
 
@@ -114,6 +114,10 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 - Since we want to handle _Leads_, add a `Click on Web Page` command to your automation to click the `Leads` link in the left-hand side menu. Yet again, use your browsers element inspector to get the needed selector for the Leads link.
 
 ![](./images/click-leads.JPG)
+
+- When you have added the command, click the Leads link to open the JK Automation Sales Leads view in your browser.
+
+![](./images/sales-leads.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
