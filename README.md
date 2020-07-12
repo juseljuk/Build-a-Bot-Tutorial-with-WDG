@@ -191,7 +191,7 @@ As you already earlier did (when creating the login sequence), use consecutive `
   ![](./images/dave.JPG)
 
 \
-**(7) Format / cleanup automation defining different sequences as procedures**
+**(7) Format / cleanup automation defining different sequences as routines**
 
 WDG Studio allows you to define and group parts of your automation as sub-routines. This can be useful to group logic parts of your automation script and make your automation more easily understandable.
 
