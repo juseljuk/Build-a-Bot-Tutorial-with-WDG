@@ -160,7 +160,11 @@ the `Read CSV File` command in your Designer view.
 
 - As you already earlier did (when creating the login sequence), use consecutive `Set Value to Field` commands to insert data that we just extracted to JK Automation Sales Leads page and to it's matching fields. Let's go through the first mapping together.
 
-  - Test
+  - Right-click the `First Name` input field in the web page, select `Inspect` --> `Copy` --> `Copy Selector`
+
+  ![](./images/fist-sl-field.JPG)
+
+  - 
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
