@@ -91,9 +91,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 
   ![](./images/setvalue-password.JPG)
 
-- Now, let's finish the login sequence by adding a command to click the `Submit` button in the JK Automation login page. We'll do that by adding command `Click on Web Page` after the Set Value to Field commands
-
-> Note that you can use toolbox search field to find commands. To display all the commands related to clicking, type **click** to the search field.
+- Now, let's finish the login sequence by adding a command to click the `Submit` button in the JK Automation login page. We'll do that by adding command `Click on Web Page` after the Set Value to Field commands. _**Note**_ that you can use toolbox search field to find commands. To display all the commands related to clicking, type **click** to the search field.
 
   ![](./images/toolbox-click.JPG)
 
