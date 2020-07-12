@@ -114,13 +114,13 @@ In this exercise you will build a robot to automate processing of sales leads th
 
   ![](./images/click-leads.JPG)
 
-- Click the `Download file` link in the left-hand side menu to download the CSV-file that we will use to read some new sales leads from and add them to JK Automation system. _**Save the file to your computer and take note of the folder you saved it to**_. You will need that later on.
+- Click the `Download file` link in the left-hand side menu to download the CSV file that we will use to read some new sales leads from and add them to JK Automation system. _**Save the file to your computer and take note of the folder you saved it to**_. You will need that later on.
 
-- When you have downloaded the CSV-file, click the `Leads` link to open the JK Automation Sales Leads view in your browser.
+- When you have downloaded the CSV file, click the `Leads` link to open the JK Automation Sales Leads view in your browser.
 
   ![](./images/sales-leads.JPG)
 
-- Good. We can now read the CSV-file. Use toolbox search to find `Read CSV File` command and add it after your last Click on Web Page command.
+- Good. We can now read the CSV file. Use toolbox search to find `Read CSV File` command and add it after your last Click on Web Page command.
 
 - When the command configuration window opens, use the `folder browse icon` to select the file you just downloaded from your file system, leave all the other selections as they are in default. There are three outputs for the command: _Data Table_ (holds the data), _Rows_ (number of rows in the data table) and _Columns_ (number of columns in the data table). We want to store these to variables.
 
@@ -216,7 +216,7 @@ WDG Studio allows you to define and group parts of your automation as sub-routin
 \
 **(8) Add loop to iterate through the data table and finish your automation**
 
-We have our automation almost ready. One of thing we still need to do, is to add a looping structure to iterate through all the sales leads within the data table that we read from the CSV-file. WDG automation studio offers several structures to do this. We will use a `While` loop and use the **row_count** variable to go through all the records.
+We have our automation almost ready. One of thing we still need to do, is to add a looping structure to iterate through all the sales leads within the data table that we read from the CSV file. WDG automation studio offers several structures to do this. We will use a `While` loop and use the **row_count** variable to go through all the records.
 
 - Select the `Map Table Row` and the `Run Subroutine` commands, **right-click** one of the selected commands, and select _**Advanced**_ --> _**Surround With**_ --> _**While**_.
 
