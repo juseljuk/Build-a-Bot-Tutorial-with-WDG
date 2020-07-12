@@ -224,9 +224,25 @@ We have our automation almost ready. Last thing we need to do, is to add a loopi
 
   ![](./images/while.JPG)
 
-- Configure the While command using the **row_count** and **row_iterator** variables as follows.
+- Configure the While command using the **row_count** and **row_iterator** variables as follows. Click `Save`.
 
   ![](./images/config-while.JPG)
+
+- You will now see the While loop in your main automation script.
+
+  ![](./images/while-in-main.JPG)
+
+- Good job! But something is missing... Right! We need still need to make sure that we increase our **row_iterator** value for each iteration. **Right-click** the `Run Subroutine` inside the While loop and select **Go To Definition**.
+
+  ![](./images/goto-definition.JPG)
+
+- Add `Calculate Mathematical Expression` command (Base --> Numeric) as a last command of the sub-routine. Configure it as follows.
+
+  ![](./images/add-1.JPG)
+
+- You should now have the command added to your sub-routine.
+
+  ![](./images/1-added.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
