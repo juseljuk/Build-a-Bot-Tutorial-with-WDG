@@ -28,11 +28,12 @@ In this exercise you will build a robot to automate processing of sales leads th
 
 <!-- ![](./images/login2.JPG) -->
 
-**(2) Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section**
+**(2) Create a new automation file (WAL file, WDG Automation Language)**
+- Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section
 
   ![](./images/new.JPG)
 
-- Select `WAL file` (WDG Automation Language) and click `Open`.
+- Select `WAL file` and click `Open`.
 
   ![](./images/open-new.JPG)
 
@@ -58,7 +59,7 @@ You should now have your Studio opened with an empty WAL file in your Designer v
 
   ![](./images/navigate.JPG)
 
-- **Save** your work by hitting `Ctrl+S` or the `Save icon` from the top toolbar. Name your automation WAL file to **jk-automation.wal**. Your automation should now look as follows.
+- **Save** your work by hitting `Ctrl+S` or the `Save icon` from the top toolbar. Name your automation WAL file to **jk-automation**. Your automation should now look as follows.
 
   ![](./images/1stsave.JPG)
 
@@ -263,7 +264,7 @@ You should see the automation / bot executing and adding all the sales leads to 
 
   ![](./images/logout.JPG)
 
-- Save your work, close the browser with JK Automation web site and run your automation again. You should now see your automation executing as previously, but after adding all the sales leads to JK Automation Sales Leads page, it also logs out from the site.
+- **Save** your work, **close** the browser with JK Automation web site and **run** your automation again. You should now see your automation executing as previously, but after adding all the sales leads to JK Automation Sales Leads page, it also logs out from the site.
 
 > It's always good practice to clean up after running the actual automation. Logout from different resources used and close down also the applications.
 
