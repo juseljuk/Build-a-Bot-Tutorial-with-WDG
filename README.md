@@ -54,7 +54,7 @@ You should now have your Studio opened with an empty WAL file in your Designer v
 
   ![](./images/close-browser.JPG)
 
-- Next command we want to is `Navigate`. You can find it also under _Browser_ --> _Actions_. Drag and drop it below the `Start Browser` command to your Designer view. Set the URL to `http://jk-automation.mybluemix.net` and click the `Save` button.
+- Next command we want to is `Navigate`. You can find it also under _Browser_ --> _Actions_. Drag and drop it below the `Start Browser` command to your Designer view. Set the URL to **http://jk-automation.mybluemix.net** and click the `Save` button.
 
   ![](./images/navigate.JPG)
 
