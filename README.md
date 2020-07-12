@@ -162,9 +162,9 @@ the `Read CSV File` command in your Designer view.
 
   - Right-click the `First Name` input field in the web page, select `Inspect` --> `Copy` --> `Copy Selector`
 
-  ![](./images/fist-sl-field.JPG)
+  ![](./images/first-sl-field.JPG)
 
-  - 
+  -
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
