@@ -236,13 +236,29 @@ We have our automation almost ready. Last thing we need to do, is to add a loopi
 
   ![](./images/goto-definition.JPG)
 
-- Add `Calculate Mathematical Expression` command (Base --> Numeric) as a last command of the sub-routine. Configure it as follows.
+- Add `Calculate Mathematical Expression` command (Base --> Numeric) as the last command of the sub-routine. Configure it as follows. We want to add +1 at the end of each iteration.
 
   ![](./images/add-1.JPG)
 
 - You should now have the command added to your sub-routine.
 
   ![](./images/1-added.JPG)
+
+- Close the sub-routine to go back to main automation script. **Save** your work.
+
+  ![](./images/finished.JPG)
+
+
+**(8) Test your automation and final configurations**
+
+Now it's time to test your implementation. Close your current browser window showing the JK Automation web site and click green `Run icon` from the studio toolbar.
+
+You should see the automation / bot executing and adding all the sales leads to the JK Automation web site. Since we have not yet implemented logout and our `Close Browser` command is to configured to left browser open for testing, the automation halts when it has added all 12 sales leads to the JK Automation Sales Leads page. If and hopefully when your automation completes as expected, make the final additions to your automation script.
+
+- Implement logout from the JK Automation site by adding two `Click on Web Page` commands at the end of your automation, just before the `Close Browser` command. First one to **click your username** on the right-hand side upper corner of the web page and the second one to **click the logout link** from the menu opened. Again, use your browser to inspect the elements you want to interact with and copy the selector for them. _**This time try using XPath selectors**_.
+
+  ![](./images/click-username.JPG)
+
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
