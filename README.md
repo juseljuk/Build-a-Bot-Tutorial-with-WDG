@@ -96,7 +96,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
   ![](./images/toolbox-click.JPG)
 
--  Get the selector for the button from your browsers element inspector as earlier did for the Username and Password fields.
+-  Get the selector for the Submit button from your browsers element inspector as you earlier did for the Username and Password fields.
 
   ![](./images/click-submit.JPG)
 
@@ -107,7 +107,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 **(4) Test your automation and continue implementation - Read CSV**
 
-`Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier (Start without debugging)`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
+`Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
 
   ![](./images/welcome-page.JPG)
 
