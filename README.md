@@ -135,9 +135,16 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 ![](./images/leads-variable.JPG)
 
-- Repeat the previous steps to create variables also to other outputs _Rows_ and _Columns_. Name them **row_count** and **column_count**, respectively. Your Read CSV command configuration should now look as follows. Click `Save`.
+- Repeat the previous steps to create variables also for other outputs _Rows_ and _Columns_. Name them **row_count** and **column_count**, respectively. Your `Read CSV File` command configuration should now look as follows. Click `Save`.
 
 ![](./images/read-csv-complete.JPG)
+
+- Now, we obviously want to iterate through all the rows within the data table and insert the data to JK Automation Sales Leads page. Let's focus first on getting a lead read from the data table. There's an quite handy command named `Map Table Row` to do this. Use your toolbox search to find the command and drag and drop it under
+the `Read CSV File` command in your Designer view.
+
+- When the configuration window opens, set `Data Table` to **leads** and then create a new variable for `Row` called **row_iterator** (since we want a variable to iterate through the data table) and set the default value to **1**.
+
+![](./images/row-iterator.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
