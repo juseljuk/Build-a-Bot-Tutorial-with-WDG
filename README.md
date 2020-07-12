@@ -26,8 +26,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 
 - When your tenant name is displayed, type in your password and hit the `Login button` again.
 
-
-
+\
 **(2) Create a new automation file (WAL file, WDG Automation Language)**
 - Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section
 
@@ -106,7 +105,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 
   ![](./images/2nd-check.JPG)
 
-
+\
 **(4) Test your automation and continue implementation - Read CSV**
 
 `Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
@@ -141,7 +140,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 
   ![](./images/read-csv-complete.JPG)
 
-
+\
 **(5) Store row data to variables**
 
 Now, we obviously want to iterate through all the rows within the data table and insert the data to JK Automation Sales Leads page. Let's focus first on getting a lead read from the data table. There's an quite handy command named `Map Table Row` to do this. Use your toolbox search to find the command and drag and drop it under the `Read CSV File` command in your Designer view.
@@ -162,7 +161,7 @@ Now, we obviously want to iterate through all the rows within the data table and
 
 > If you have closed JK Automation web page, you can always run your current automation to get the JK Automation Sales Leads page opened and continue from there.
 
-
+\
 **(6) Set Sales Leads input fields**
 
 As you already earlier did (when creating the login sequence), use consecutive `Set Value to Field` commands to insert data that we just extracted to JK Automation Sales Leads page and to it's matching fields. Let's go through the first mapping together.
@@ -193,7 +192,7 @@ As you already earlier did (when creating the login sequence), use consecutive `
 
   ![](./images/dave.JPG)
 
-
+\
 **(7) Format / cleanup automation defining different sequences as procedures**
 
 WDG Studio allows you to define and group parts of your automation as sub-routines. This can be useful to group logic parts of your automation script and make your automation more easily understandable.
@@ -216,8 +215,7 @@ WDG Studio allows you to define and group parts of your automation as sub-routin
 
   > Variables in WDG Studio are global. This means that you do not need to map variables between your main automation script and its sub-routines.
 
-
-
+\
 **(8) Add loop to iterate through the data table and finish your automation**
 
 We have our automation almost ready. One of thing we still need to do, is to add a looping structure to iterate through all the sales leads within the data table that we read from the CSV-file. WDG automation studio offers several structures to do this. We will use a `While` loop and use the **row_count** variable to go through all the records.
@@ -250,7 +248,7 @@ We have our automation almost ready. One of thing we still need to do, is to add
 
   ![](./images/finished.JPG)
 
-
+\
 **(9) Test your automation and final configurations**
 
 Now it's time to test your implementation. Close your current browser window showing the JK Automation web site and click green `Run icon` from the studio toolbar.
