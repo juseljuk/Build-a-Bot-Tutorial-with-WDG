@@ -42,7 +42,7 @@ You should now have your Studio opened with an empty WAL file in your Designer v
 
   ![](./images/empty-editor.JPG)
 
-- Add `Start Browser` command from your Toolbox to your Designer view. You can find the command under Browser --> Actions. Drag and drop it to your canvas.
+- Add `Start Browser` command from your Toolbox to your Designer view. You can find the command under _**Browser**_ --> _**Actions**_. Drag and drop it to your canvas.
 
   ![](./images/start-browser.JPG)
 
