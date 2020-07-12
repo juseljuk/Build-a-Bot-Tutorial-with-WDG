@@ -170,13 +170,16 @@ the `Read CSV File` command in your Designer view.
 
 - Similarly, set all the input fields till `Are of Interest` and when you have 11 consecutive `Set Value to Field` commands in your automation.
 
-- Next, add `If` command (Under _Base_ --> _Flow Control_) to your automatio under the last `Set Value to Field` command.
+> Note. You can use copy-paste in your Designer view to easily copy commands.
 
-- Add `Click on Web Page` command between _If_ and _End If_. Configure with using selector for the **_Follow up_ check box** in the Sales Leads web page and using variable **followup** that you mapped from the CVS file.
+- Next, add `If` command (Under _Base_ --> _Flow Control_) to your automatio under the last `Set Value to Field` command. Configure it using the **followup** variable as follows.
 
   ![](./images/if-followup.JPG)
 
-> Note. You can use copy-paste in your Designer view to easily copy commands.
+- Add `Click on Web Page` command between _If_ and _End If_. Configure with using selector for the **_Follow up_ check box**.
+
+  ![](./images/click-cb.JPG)
+
 
 
 - When it comes to
