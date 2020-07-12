@@ -194,11 +194,19 @@ As you already earlier did (when creating the login sequence), use consecutive `
 
 **(7) Format / cleanup automation defining different sequences as procedures**
 
-WDG Studio allows you to define parts of the automation as procedures (sub-automations). This can be useful to group logic parts of your automation script and make your automation more easily understandable.
+WDG Studio allows you to define and group parts of your automation as sub-routines. This can be useful to group logic parts of your automation script and make your automation more easily understandable.
 
-- In your WGD Studio Designer view, select (_Shift+Click_) **all commands** between _Map Table Row_ and _Close Browser_ (do **NOT** select Map Table Row and Close Browser), right-click one of the selected commands and select **Advanced** --> **Extract Routine**.
+- In your WGD Studio Designer view, select (_Shift+Click_) **all commands** between _Map Table Row_ and _Close Browser_ (**NOTE!** Do **NOT** select _Map Table Row_ and _Close Browser_!), right-click one of the selected commands and select **Advanced** --> **Extract Routine**.
 
   ![](./images/extract-routine.jpg)
+
+- Name your sub-routine as **InsertLeadData**. Click `Save`.
+
+  ![](./images/sr-insert-lead-data.jpg)
+
+- Studio will show the extracted sub-routine. You can close it and return to "main" automation by clicking the _close icon_ after the name of the sub-routine.
+
+  ![](./images/close-sr.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
