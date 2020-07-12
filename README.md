@@ -215,6 +215,7 @@ WDG Studio allows you to define and group parts of your automation as sub-routin
   > Variables in WDG Studio are global. This means that you do not need to map variables between your main automation script and its sub-routines.
 
 
+
 **(7) Add loop to iterate through the data table and finish your automation**
 
 We have our automation almost ready. Last thing we need to do, is to add a looping structure to iterate through all the sales leads within the data table that we read from the CSV-file. WDG automation studio offers several structures to do this. We will use a `While` loop and use the **row_count** variable to go through all the records.
@@ -222,6 +223,10 @@ We have our automation almost ready. Last thing we need to do, is to add a loopi
 - Select the `Map Table Row` and the `Run Subroutine` commands, **right-click** one of the selected commands, and select _**Advanced**_ --> _**Surround With**_ --> _**While**_.
 
   ![](./images/while.JPG)
+
+- Configure the While command using the **row_count** and **row_iterator** variables as follows.
+
+  ![](./images/config-while.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
