@@ -106,7 +106,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 \
 **(4) Test your automation and continue implementation - Read CSV**
 
-`Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
+- `Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
 
   ![](./images/welcome-page.JPG)
 
