@@ -96,6 +96,7 @@ In this exercise you will build a robot to automate processing of sales leads th
   ![](./images/toolbox-click.JPG)
 
 -  Get the selector for the Submit button from your browsers element inspector as you earlier did for the Username and Password fields.
+
   ![](./images/click-submit.JPG)
 
 - Your automation should look like as follows. Nice, good job!
