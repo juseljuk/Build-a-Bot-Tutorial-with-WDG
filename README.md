@@ -18,11 +18,11 @@ In this exercise you will build a robot to automate processing sales leads that 
 **(1) Start WDG Automation Studio**
 - Double-click the `WDG Studio shortcut` in your desktop.
 
-![](./images/shortcut.JPG)
+  ![](./images/shortcut.JPG)
 
 - When the login window opens (might take a while for the first time), type in your username and hit the `Login button`.
 
-![](./images/login.JPG)
+  ![](./images/login.JPG)
 
 - When your tenant name is displayed, type in your password and hit the `Login button` again.
 
@@ -34,7 +34,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 - Select `WAL file` (WDG Automation Language) and click `Open`.
 
-![](./images/open-new.JPG)
+  ![](./images/open-new.JPG)
 
 **(3) Create your bot script - Login to JK Automation website**
 
@@ -44,31 +44,31 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 - Add `Start Browser` command from your Toolbox to your Designer view. You can find the command under Browser --> Actions. Drag and drop it to your canvas.
 
-![](./images/start-browser.JPG)
+  ![](./images/start-browser.JPG)
 
 - The command configuration opens. You need to set name to your browser instance (for example `web01`). Keep `Google Chrome` selected as your browser type, if you have Chrome installed. You can also change the browser to one you want to use. Click `Save` button.
 
-![](./images/config-start-browser.JPG)
+  ![](./images/config-start-browser.JPG)
 
 - `Close Browser` configuration window pops up automatically. Make sure to set the same instance name value that you used for `Start Browser`. Also set `Keep browser open` as enabled. This helps you during the implementation so that browser is not closed when you test your automation and you can continue using it for defining next actions for your automation. Click `Save` button to close the configuration window.
 
-![](./images/close-browser.JPG)
+  ![](./images/close-browser.JPG)
 
 - Next command we want to is `Navigate`. You can find it also under Browser --> Actions. Drag and drop it below the `Start Browser` command to your Designer view. Set the URL to `http://jk-automation.mybluemix.net` and click the `Save` button.
 
-![](./images/navigate.JPG)
+  ![](./images/navigate.JPG)
 
 - Save your work by hitting `Ctrl+S` or the `Save icon` from the top toolbar. Name your automation WAL file to `jk-automation.wal`. Your automation should now look as follows.
 
-![](./images/1stsave.JPG)
+  ![](./images/1stsave.JPG)
 
 - Run your automation to test that it works and JK Automation website is opened. Click the small arrow below green `Run` icon form the top toolbar and select `Run without debugging`. Alternatively you can hit `Ctrl+F5`.
 
-![](./images/start-wo-debug.JPG)
+  ![](./images/start-wo-debug.JPG)
 
 - You should see new Chrome Browser window opened and JK Automation login page opened. Note! For the first time this might take a couple of seconds. When you go back to your Studio window, you should see `Execution succeeded` text at the bottom left-hand side corner. _**Make sure to leave the browser window open!**_
 
-![](./images/success.JPG)
+  ![](./images/success.JPG)
 
 - Nice! Your first run with WDG Automation 👍🏻Let's keep on going! Next we will need to automate the login to JK Automation website.
 
@@ -76,33 +76,33 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 - Open JK Automation browser window that you should have open. Right-click the `Username` field and from the opened menu select `Inspect`.
 
-![](./images/open-inspect.JPG)
+  ![](./images/open-inspect.JPG)
 
 - This open your browsers element inspector with the Username field element selected. Right-click the selected element, select `Copy` --> `Copy selector`. This will copy the CSS selector for the element to your clipboard.
 
-![](./images/inspect-editor.jpg)
+  ![](./images/inspect-editor.jpg)
 
 - Go back to your WDG Studio and add `Set Value to Field` (Browser --> Fields) command to your automation just under `Navigation` command. When the command configuration window opens set _Value_ to "**whatever**" (username you use does not matter), _Selector Type_ to **Css** and _Css_ to **the value from your clipboard** (the selector you copied from element inspector). Finally click `Save`.
 
-![](./images/setvalue-username.JPG)
+  ![](./images/setvalue-username.JPG)
 
 - Similarly add new `Set Value to Field` command below the previous for the `Password` field. Set _Value_ to **password10**.
 
-![](./images/setvalue-password.JPG)
+  ![](./images/setvalue-password.JPG)
 
 - Now, let's finish the login sequence by adding a command to click the `Submit` button in the JK Automation login page. We'll do that by adding command `Click on Web Page` after the Set Value to Field commands
 
 > Note that you can use toolbox search field to find commands. To display all the commands related to clicking, type **click** to the search field.
 
-![](./images/toolbox-click.JPG)
+  ![](./images/toolbox-click.JPG)
 
 -  Get the selector for the button from your browsers element inspector as earlier did for the Username and Password fields.
 
-![](./images/click-submit.JPG)
+  ![](./images/click-submit.JPG)
 
 - Your automation should look like as follows. Nice, good job!
 
-![](./images/2nd-check.JPG)
+  ![](./images/2nd-check.JPG)
 
 
 **(4) Test your automation and continue implementation - Read CSV**
@@ -113,42 +113,42 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 - Since we want to handle _Leads_, add a `Click on Web Page` command to your automation to click the `Leads` link in the left-hand side menu. Yet again, use your browsers element inspector to get the needed selector for the Leads link.
 
-![](./images/click-leads.JPG)
+  ![](./images/click-leads.JPG)
 
 - Click the `Download file` link in the left-hand side menu to download the CSV-file that we will use to read some new sales leads from and add them to JK Automation system. _**Save the file to your computer and take note of the folder you saved it to**_. You will need that later on.
 
 - When you have downloaded the CSV-file, click the `Leads` link to open the JK Automation Sales Leads view in your browser.
 
-![](./images/sales-leads.JPG)
+  ![](./images/sales-leads.JPG)
 
 - Good. We can now read the CSV-file. Use toolbox search to find `Read CSV File` command and add it after your last Click on Web Page command.
 
 - When the command configuration window opens, use the `folder browse icon` to select the file you just downloaded from your file system, leave all the other selections as they are in default. There are three outputs for the command: _Data Table_ (holds the data), _Rows_ (number of rows in the data table) and _Columns_ (number of columns in the data table). We want to store these to variables.
 
-![](./images/read-csv.JPG)
+  ![](./images/read-csv.JPG)
 
 - First, **Click** the folder icon besides the Data Table field to open variable list (as shown in picture above). Next, click `Add new variable` icon and the `Define Variable` window opens.
 
-![](./images/add-new-variable.JPG)
+  ![](./images/add-new-variable.JPG)
 
 - Name the variable as **leads**. Notice that the variable type is automatically set to match the output type (Data Table). Click `Save`.
 
-![](./images/leads-variable.JPG)
+  ![](./images/leads-variable.JPG)
 
 - Repeat the previous steps to create variables also for other outputs _Rows_ and _Columns_. Name them **row_count** and **column_count**, respectively. Your `Read CSV File` command configuration should now look as follows. Click `Save`.
 
-![](./images/read-csv-complete.JPG)
+  ![](./images/read-csv-complete.JPG)
 
 - Now, we obviously want to iterate through all the rows within the data table and insert the data to JK Automation Sales Leads page. Let's focus first on getting a lead read from the data table. There's an quite handy command named `Map Table Row` to do this. Use your toolbox search to find the command and drag and drop it under
 the `Read CSV File` command in your Designer view.
 
 - When the configuration window opens, select variable **leads** to `Data Table` and then create a new variable for `Row` called **row_iterator** (since we want a variable to iterate through the data table) and set the default value for it to **1**.
 
-![](./images/row-iterator.JPG)
+  ![](./images/row-iterator.JPG)
 
 - Next we need to create mappings for the data table row. If you open the CVS file that we're using for the lab with Excel / Notepad, you can see that there's 12 data rows and also 12 different columns: **First Name**, **Last Name**, **Job Tile**, **Company**, **email**, **phone**, **Client Address**, **Client City**, **Client State**, **Client Zipcode**, **Area of Interest** and **Followup Requested**.
 
-![](./images/data.JPG)
+  ![](./images/data.JPG)
 
 - Click `plus sign (+)` within your `Map Table Row` configuration window to add all the needed mappings for your row. Use the `Column Name` to identify the data for the mapping and create a new variable to hold the data. Map and and name the variables as follows.
 
