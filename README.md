@@ -164,9 +164,22 @@ the `Read CSV File` command in your Designer view.
 
   ![](./images/first-sl-field.jpg)
 
-  - Add `Set Value to Field` command to your automation under `Map Table Row` command and configure using it your just copied selector and the extracted variable **first_name**. NOTE! Enable also `Simulate Human` option. Click `Save`.
+  - Add `Set Value to Field` command to your automation under `Map Table Row` command and configure using it your just copied selector and the extracted variable **first_name**. **_NOTE!_** Enable also `Simulate Human` option. Click `Save`.
 
   ![](./images/fn-configuration.JPG)
+
+- Similarly, set all the input fields till `Are of Interest` and when you have 11 consecutive `Set Value to Field` commands in your automation.
+
+- Next, add `If` command (Under _Base_ --> _Flow Control_) to your automatio under the last `Set Value to Field` command.
+
+- Add `Click on Web Page` command between _If_ and _End If_. Configure with using selector for the **_Follow up_ check box** in the Sales Leads web page and using variable **followup** that you mapped from the CVS file.
+
+  ![](./images/if-followup.JPG)
+
+> Note. You can use copy-paste in your Designer view to easily copy commands.
+
+
+- When it comes to
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
