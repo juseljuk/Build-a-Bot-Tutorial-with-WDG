@@ -259,6 +259,9 @@ You should see the automation / bot executing and adding all the sales leads to 
 
   ![](./images/click-username.JPG)
 
+- When you're done, you should have two `Click on Web Page commands` at the end of your automation.
+
+  ![](./images/logout.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
