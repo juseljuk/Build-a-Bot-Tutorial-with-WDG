@@ -208,5 +208,9 @@ WDG Studio allows you to define and group parts of your automation as sub-routin
 
   ![](./images/close-sr.JPG)
 
+- You can now see the extrated sub-routine in your "main" automation script.
+
+  ![](./images/sr-in-main.JPG)
+
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
