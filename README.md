@@ -37,10 +37,10 @@ In this exercise you will build a robot to automate processing of sales leads th
 
   ![](./images/open-new.JPG)
 
-
+\
 **(3) Create your bot script - Login to JK Automation website**
 
-You should now have your Studio opened with an empty WAL file in your Designer view. Note that you can change your view between _Script_, _Designer_ and _Call Graph_.
+- You should now have your Studio opened with an empty WAL file in your Designer view. Note that you can change your view between _Script_, _Designer_ and _Call Graph_.
 
   ![](./images/empty-editor.JPG)
 
