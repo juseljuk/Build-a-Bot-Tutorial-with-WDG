@@ -164,7 +164,9 @@ the `Read CSV File` command in your Designer view.
 
   ![](./images/first-sl-field.jpg)
 
-  -
+  - Add `Set Value to Field` command to your automation under `Map Table Row` command and configure using it your just copied selector and the extracted variable **first_name**. NOTE! Enable also `Simulate Human` option. Click `Save`.
+
+  ![](./images/fn-configuration.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
