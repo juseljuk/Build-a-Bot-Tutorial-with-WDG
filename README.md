@@ -58,7 +58,7 @@ You should now have your Studio opened with an empty WAL file in your Designer v
 
   ![](./images/navigate.JPG)
 
-- **Save** your work by hitting `Ctrl+S` or the `Save icon` from the top toolbar. Name your automation WAL file to `jk-automation.wal`. Your automation should now look as follows.
+- **Save** your work by hitting `Ctrl+S` or the `Save icon` from the top toolbar. Name your automation WAL file to **jk-automation.wal**. Your automation should now look as follows.
 
   ![](./images/1stsave.JPG)
 
