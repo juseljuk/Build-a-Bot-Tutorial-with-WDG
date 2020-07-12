@@ -150,5 +150,9 @@ the `Read CSV File` command in your Designer view.
 
 ![](./images/data.JPG)
 
+- Click `plus sign (+)` within your `Map Table Row` configuration window to add all the needed mappings for your row. Use the `Column Name` to identify the data for the mapping and create a new variable to hold the data. Map and and name the variables as follows.
+
+![](./images/map-datarow.JPG)
+
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
