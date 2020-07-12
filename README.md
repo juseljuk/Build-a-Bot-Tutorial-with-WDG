@@ -26,7 +26,6 @@ In this exercise you will build a robot to automate processing of sales leads th
 
 - When your tenant name is displayed, type in your password and hit the `Login button` again.
 
-<!-- ![](./images/login2.JPG) -->
 
 **(2) Create a new automation file (WAL file, WDG Automation Language)**
 - Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section
@@ -36,6 +35,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 - Select `WAL file` and click `Open`.
 
   ![](./images/open-new.JPG)
+
 
 **(3) Create your bot script - Login to JK Automation website**
 
