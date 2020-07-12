@@ -202,7 +202,7 @@ WDG Studio allows you to define and group parts of your automation as sub-routin
 
 - Name your sub-routine as **InsertLeadData**. Click `Save`.
 
-  ![](./images/sr-insert-lead-data.jpg)
+  ![](./images/sr-insert-lead-data.JPG)
 
 - Studio will show the extracted sub-routine. You can close it and return to "main" automation by clicking the _close icon_ after the name of the sub-routine.
 
