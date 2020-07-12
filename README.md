@@ -152,7 +152,7 @@ the `Read CSV File` command in your Designer view.
 
 - Click `plus sign (+)` within your `Map Table Row` configuration window to add all the needed mappings for your row. Use the `Column Name` to identify the data for the mapping and create a new variable to hold the data. Map and and name the variables as follows.
 
-![](./images/map-datarow.JPG)
+  ![](./images/map-datarow.JPG)
 
 - Good. Click `Save` to save and close the configuration. Now we need to insert the data to JK Automation Sales Leads page that you should still have open in your browser.
 
