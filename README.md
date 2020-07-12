@@ -259,9 +259,21 @@ You should see the automation / bot executing and adding all the sales leads to 
 
   ![](./images/click-username.JPG)
 
-- When you're done, you should have two `Click on Web Page commands` at the end of your automation.
+- When you're done, you should have two `Click on Web Page commands` at the end of your automation before the `Close Browser` command.
 
   ![](./images/logout.JPG)
+
+- Save your work, close the browser with JK Automation web site and run your automation again. You should now see your automation executing as previously, but after adding all the sales leads to JK Automation Sales Leads page, it also logs out from the site.
+
+> It's always good practice to clean up after running the actual automation. Logout from different resources used and close down also the applications.
+
+- Finally, change your `Close Browser` command configuration so that it closes the browser.
+
+  ![](./images/close-browser-end.JPG)
+
+- Save your work and test your automation again.
+
+**Well done! Congrats finishing the exercise! Hope you learned the basics on how to use WDG Automation Studio. Keep on automating 😊**
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
