@@ -30,7 +30,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 **(2) Create a new WAL file by clicking the `New` icon from the top toolbar or `New` under "Get Started" section**
 
-![](./images/new.JPG)
+  ![](./images/new.JPG)
 
 - Select `WAL file` (WDG Automation Language) and click `Open`.
 
@@ -40,7 +40,7 @@ In this exercise you will build a robot to automate processing sales leads that 
 
 You should now have your Studio opened with a empty WAL file in your Designer view. Note that you change your view between Script, Designer and Call Graph.
 
-![](./images/empty-editor.JPG)
+  ![](./images/empty-editor.JPG)
 
 - Add `Start Browser` command from your Toolbox to your Designer view. You can find the command under Browser --> Actions. Drag and drop it to your canvas.
 
