@@ -176,13 +176,15 @@ the `Read CSV File` command in your Designer view.
 
   ![](./images/if-followup.JPG)
 
-- Add `Click on Web Page` command between _If_ and _End If_. Configure with using selector for the **_Follow up_ check box**.
+- Add `Click on Web Page` command between _If_ and _End If_. Configure it with using the selector for the **_Follow up_ check box** in the Sales Leads web page.
 
   ![](./images/click-cb.JPG)
 
+- Finally, add `Click on Web Page` command under _End If_ to click the **Submit** button in the Sales Leads web page
 
+- **Save** your work, **close your browser** showing the JK Automation web site and **run** your automation by hitting the `Run` icon in the top toolbar. You should see your automation executing and entering the first sales lead (Dave Wakeman) to the JK Automation Sales Leads page. Nice!
 
-- When it comes to
+  ![](./images/dave.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
