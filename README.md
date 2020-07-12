@@ -1,6 +1,6 @@
 
 # IBM Digital Business Automation Exercise
-## How to build a bot using WDG RPA (Robotic Process Automation)
+## How to build a bot using WDG Automation RPA (Robotic Process Automation)
 
 ### Introduction
 July 8th, 2020 IBM announced that it will be acquiring WDG Automation to strengthen IBM DBA portfolio (https://newsroom.ibm.com/2020-07-08-IBM-to-Acquire-WDG-Automation-to-Advance-AI-Infused-Automation-Capabilities-for-Enterprises). IBM has been in strategic co-operation with Automation Anywhere (AA), providing IBM RPA with Automation Anywhere RPA solution based on Automation Anywhere RPA platform. Although the co-operation with AA will continue, WDG Automation technology will join the IBM Cloud Integration organization and be available through IBM Cloud Pak for Automation on-premises, and in public or private cloud environments.
@@ -54,7 +54,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
   ![](./images/close-browser.JPG)
 
-- Next command we want to is `Navigate`. You can find it also under Browser --> Actions. Drag and drop it below the `Start Browser` command to your Designer view. Set the URL to `http://jk-automation.mybluemix.net` and click the `Save` button.
+- Next command we want to is `Navigate`. You can find it also under _Browser_ --> _Actions_. Drag and drop it below the `Start Browser` command to your Designer view. Set the URL to `http://jk-automation.mybluemix.net` and click the `Save` button.
 
   ![](./images/navigate.JPG)
 
@@ -62,23 +62,23 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
   ![](./images/1stsave.JPG)
 
-- Run your automation to test that it works and JK Automation website is opened. Click the small arrow below green `Run` icon form the top toolbar and select `Run without debugging`. Alternatively you can hit `Ctrl+F5`.
+- Run your automation to test that it works and JK Automation website is opened. Click the green `Run` icon form the top toolbar. Alternatively you can hit `F5`.
 
-  ![](./images/start-wo-debug.JPG)
+  ![](./images/start-icon.JPG)
 
-- You should see new Chrome Browser window opened and JK Automation login page opened. Note! For the first time this might take a couple of seconds. When you go back to your Studio window, you should see `Execution succeeded` text at the bottom left-hand side corner. _**Make sure to leave the browser window open!**_
+- You should see new Chrome Browser window opened and JK Automation login page opened. **Note!** For the first time this might take a couple of seconds. When you go back to your Studio window, you should see `Execution succeeded` text at the bottom left-hand side corner. _**Make sure to leave the browser window open!**_
 
   ![](./images/success.JPG)
 
 - Nice! Your first run with WDG Automation 👍🏻Let's keep on going! Next we will need to automate the login to JK Automation website.
 
-> Currently WDG does not offer similar mechanism as in AA (object cloning) to automate capturing object (like web form fields) details that you want to use in your automation. For web pages this needs to be done manually using browser functionality to inspect the object and copy the selector for it. WDG support several selectors: id, name, css, xpath, id + name.
+> Currently WDG does not offer similar mechanism that we have in AA (object cloning) to automate capturing object (like web form fields) details that you want to use in your automation. For web pages this needs to be done manually with WDG using browser functionality to inspect the object and copy the selector for it. WDG supports several selectors for fields: id, name, css, xpath, id + name.
 
-- Open JK Automation browser window that you should have open. Right-click the `Username` field and from the opened menu select `Inspect`.
+- Open JK Automation browser window that you should have open. **Right-click** the `Username` field and from the opened menu select `Inspect`.
 
   ![](./images/open-inspect.JPG)
 
-- This open your browsers element inspector with the Username field element selected. Right-click the selected element, select `Copy` --> `Copy selector`. This will copy the CSS selector for the element to your clipboard.
+- This open your browsers element inspector with the Username field element selected. **Right-click** the selected element, select `Copy` --> `Copy selector`. This will copy the CSS selector for the element to your clipboard.
 
   ![](./images/inspect-editor.jpg)
 
@@ -109,7 +109,7 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
 `Save your work`, `close your browser with JK Automation login page` and `run your current automation as you did earlier (Start without debugging)`. You should see your bot executing, opening the JK Automation web page and logging in with the information that you used to develop the login sequence. When your bot is finished, you should see the JK Automation welcome page.
 
-![](./images/welcome-page.JPG)
+  ![](./images/welcome-page.JPG)
 
 - Since we want to handle _Leads_, add a `Click on Web Page` command to your automation to click the `Leads` link in the left-hand side menu. Yet again, use your browsers element inspector to get the needed selector for the Leads link.
 
@@ -218,7 +218,7 @@ WDG Studio allows you to define and group parts of your automation as sub-routin
 
 **(7) Add loop to iterate through the data table and finish your automation**
 
-We have our automation almost ready. Last thing we need to do, is to add a looping structure to iterate through all the sales leads within the data table that we read from the CSV-file. WDG automation studio offers several structures to do this. We will use a `While` loop and use the **row_count** variable to go through all the records.
+We have our automation almost ready. One of thing we still need to do, is to add a looping structure to iterate through all the sales leads within the data table that we read from the CSV-file. WDG automation studio offers several structures to do this. We will use a `While` loop and use the **row_count** variable to go through all the records.
 
 - Select the `Map Table Row` and the `Run Subroutine` commands, **right-click** one of the selected commands, and select _**Advanced**_ --> _**Surround With**_ --> _**While**_.
 
