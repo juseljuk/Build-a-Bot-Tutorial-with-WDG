@@ -142,9 +142,13 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 - Now, we obviously want to iterate through all the rows within the data table and insert the data to JK Automation Sales Leads page. Let's focus first on getting a lead read from the data table. There's an quite handy command named `Map Table Row` to do this. Use your toolbox search to find the command and drag and drop it under
 the `Read CSV File` command in your Designer view.
 
-- When the configuration window opens, set `Data Table` to **leads** and then create a new variable for `Row` called **row_iterator** (since we want a variable to iterate through the data table) and set the default value to **1**.
+- When the configuration window opens, select variable **leads** to `Data Table` and then create a new variable for `Row` called **row_iterator** (since we want a variable to iterate through the data table) and set the default value for it to **1**.
 
 ![](./images/row-iterator.JPG)
+
+- Next we need to create mappings for the data table row. If you open the CVS file that we're using for the lab with Excel / Notepad, you can see that there's 12 data rows and also 12 different columns: **First Name**, **Last Name**, **Job Tile**, **Company**, **email**, **phone**, **Client Address**, **Client City**, **Client State**, **Client Zipcode**, **Area of Interest** and **Followup Requested**.
+
+![](./images/data.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
