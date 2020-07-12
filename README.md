@@ -139,8 +139,10 @@ You should now have your Studio opened with a empty WAL file in your Designer vi
 
   ![](./images/read-csv-complete.JPG)
 
-- Now, we obviously want to iterate through all the rows within the data table and insert the data to JK Automation Sales Leads page. Let's focus first on getting a lead read from the data table. There's an quite handy command named `Map Table Row` to do this. Use your toolbox search to find the command and drag and drop it under
-the `Read CSV File` command in your Designer view.
+
+**(5) Store row data to variables**
+
+Now, we obviously want to iterate through all the rows within the data table and insert the data to JK Automation Sales Leads page. Let's focus first on getting a lead read from the data table. There's an quite handy command named `Map Table Row` to do this. Use your toolbox search to find the command and drag and drop it under the `Read CSV File` command in your Designer view.
 
 - When the configuration window opens, select variable **leads** to `Data Table` and then create a new variable for `Row` called **row_iterator** (since we want a variable to iterate through the data table) and set the default value for it to **1**.
 
@@ -158,7 +160,10 @@ the `Read CSV File` command in your Designer view.
 
 > If you have closed JK Automation web page, you can always run your current automation to get the JK Automation Sales Leads page opened and continue from there.
 
-- As you already earlier did (when creating the login sequence), use consecutive `Set Value to Field` commands to insert data that we just extracted to JK Automation Sales Leads page and to it's matching fields. Let's go through the first mapping together.
+
+**(6) Set Sales Leads input fields**
+
+As you already earlier did (when creating the login sequence), use consecutive `Set Value to Field` commands to insert data that we just extracted to JK Automation Sales Leads page and to it's matching fields. Let's go through the first mapping together.
 
   - Right-click the `First Name` input field in the web page, select `Inspect` --> `Copy` --> `Copy Selector`
 
@@ -185,6 +190,15 @@ the `Read CSV File` command in your Designer view.
 - **Save** your work, **close your browser** showing the JK Automation web site and **run** your automation by hitting the `Run` icon in the top toolbar. You should see your automation executing and entering the first sales lead (Dave Wakeman) to the JK Automation Sales Leads page. Nice!
 
   ![](./images/dave.JPG)
+
+
+**(7) Format / cleanup automation defining different sequences as procedures**
+
+WDG Studio allows you to define parts of the automation as procedures (sub-automations). This can be useful to group logic parts of your automation script and make your automation more easily understandable.
+
+- In your WGD Studio Designer view, select (_Shift+Click_) **all commands** between _Map Table Row_ and _Close Browser_ (do **NOT** select Map Table Row and Close Browser), right-click one of the selected commands and select **Advanced** --> **Extract Routine**.
+
+  ![](./images/extract-routine.JPG)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
