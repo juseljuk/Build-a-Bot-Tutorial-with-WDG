@@ -198,7 +198,7 @@ WDG Studio allows you to define parts of the automation as procedures (sub-autom
 
 - In your WGD Studio Designer view, select (_Shift+Click_) **all commands** between _Map Table Row_ and _Close Browser_ (do **NOT** select Map Table Row and Close Browser), right-click one of the selected commands and select **Advanced** --> **Extract Routine**.
 
-  ![](./images/extract-routine.JPG)
+  ![](./images/extract-routine.jpg)
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
