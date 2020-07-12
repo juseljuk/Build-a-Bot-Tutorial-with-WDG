@@ -154,5 +154,13 @@ the `Read CSV File` command in your Designer view.
 
 ![](./images/map-datarow.JPG)
 
+- Good. Click `Save` to save and close the configuration. Now we need to insert the data to JK Automation Sales Leads page that you should still have open in your browser.
+
+> If you have closed JK Automation web page, you can always run your current automation to get the JK Automation Sales Leads page opened and continue from there.
+
+- As you already earlier did (when creating the login sequence), use consecutive `Set Value to Field` commands to insert data that we just extracted to JK Automation Sales Leads page and to it's matching fields. Let's go through the first mapping together.
+
+  - Test
+
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
