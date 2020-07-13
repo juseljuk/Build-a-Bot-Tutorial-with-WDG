@@ -73,7 +73,7 @@ In this exercise you will build a robot to automate processing of sales leads th
 
 - Nice! Your first run with WDG Automation 👍🏻Let's keep on going! Next we will need to automate the login to JK Automation website.
 
-> Currently WDG does not offer similar mechanism that we have in AA (object cloning) to automate capturing object (like web form fields) details that you want to use in your automation. For web pages this needs to be done manually with WDG using browser functionality to inspect the object and copy the selector for it. WDG supports several selectors for fields: id, name, css, xpath, id + name.
+> Currently WDG does not offer any mechanism to automate the capturing of objects (like web form fields) that you want to use in your automation. For web pages this needs to be done manually using browser functionality to inspect the object and copy the selector for it. WDG supports several selectors for fields: id, name, css, xpath, id + name.
 
 - Open JK Automation browser window that you should have open. **Right-click** the `Username` field and from the opened menu select `Inspect`.
 
