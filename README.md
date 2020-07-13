@@ -271,7 +271,7 @@ You should see the automation / bot executing and adding all the sales leads to 
 
 - Save your work and test your automation again.
 
-**Well done! Congrats finishing the exercise! Hope you learned the basics on how to use WDG Automation Studio. Keep on automating 😊**
+**Well done! Congrats finishing the exercise! Hope you learned some of the basics on how to use WDG Automation Studio. Keep on automating 😊**
 
 ---
 _Author: Jukka Juselius (jukka.juselius@fi.ibm.com)_
